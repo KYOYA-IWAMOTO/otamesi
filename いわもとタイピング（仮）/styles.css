@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#storyText, #romajiText {
+    margin: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+#typingArea {
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#charCountDisplay, #timerDisplay {
+    margin-top: 10px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    animation: flashRed 0.5s;
+}
+
+@keyframes flashRed {
+    0% { background-color: red; }
+    100% { background-color: transparent; }
+}
